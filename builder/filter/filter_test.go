@@ -2,11 +2,12 @@ package filter
 
 import (
 	"encoding/json"
-	"github.com/grafadruid/go-druid/builder"
-	"github.com/grafadruid/go-druid/builder/intervals"
-	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
+
+	"github.com/dnakazato/go-druid/builder"
+	"github.com/dnakazato/go-druid/builder/intervals"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestLoadUnsupportedType(t *testing.T) {

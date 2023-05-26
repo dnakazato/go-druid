@@ -3,7 +3,7 @@ package havingspec
 import (
 	"encoding/json"
 
-	"github.com/grafadruid/go-druid/builder"
+	"github.com/dnakazato/go-druid/builder"
 )
 
 type Not struct {

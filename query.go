@@ -3,8 +3,8 @@ package druid
 import (
 	"net/http"
 
-	"github.com/grafadruid/go-druid/builder"
-	"github.com/grafadruid/go-druid/builder/query"
+	"github.com/dnakazato/go-druid/builder"
+	"github.com/dnakazato/go-druid/builder/query"
 )
 
 const (

@@ -3,9 +3,9 @@ package filter
 import (
 	"encoding/json"
 
-	"github.com/grafadruid/go-druid/builder"
-	"github.com/grafadruid/go-druid/builder/extractionfn"
-	"github.com/grafadruid/go-druid/builder/intervals"
+	"github.com/dnakazato/go-druid/builder"
+	"github.com/dnakazato/go-druid/builder/extractionfn"
+	"github.com/dnakazato/go-druid/builder/intervals"
 )
 
 type Interval struct {

@@ -2,12 +2,13 @@ package query
 
 import (
 	"encoding/json"
-	"github.com/grafadruid/go-druid/builder"
-	"github.com/grafadruid/go-druid/builder/dimension"
-	"github.com/grafadruid/go-druid/builder/filter"
-	"github.com/grafadruid/go-druid/builder/granularity"
-	"github.com/grafadruid/go-druid/builder/searchqueryspec"
-	"github.com/grafadruid/go-druid/builder/types"
+
+	"github.com/dnakazato/go-druid/builder"
+	"github.com/dnakazato/go-druid/builder/dimension"
+	"github.com/dnakazato/go-druid/builder/filter"
+	"github.com/dnakazato/go-druid/builder/granularity"
+	"github.com/dnakazato/go-druid/builder/searchqueryspec"
+	"github.com/dnakazato/go-druid/builder/types"
 )
 
 type SearchSortSpec struct {
